@@ -5,7 +5,7 @@ In 2012, restrictive distributional assumptions were still a downside of Variati
 Some eight years latter, automatic differentiation toolboxes (PyTorch and Tensorflow) are everywhere. 
 With these tools, we could do the same with much more ease simply using the reparameterization trick and a few samples from the variational distribution.  
 
-Here, you will find a modern implementation of non-parametric variational inference (NPVI) using PyTorch.
+Here, you can find a modern implementation of NPVI using PyTorch.
 
 As an illutration, I've implemented it for inference on a non-conjugate hierarchical logistic regression model.
 
