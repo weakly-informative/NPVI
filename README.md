@@ -1,4 +1,4 @@
-# NPVI
+# Non-parametric VI in the era of autodiff
 
 In 2012, restrictive distributional assumptions were still a downside of Variational Inference (VI). These restrictions engulfed both variational distributions and model families in which inference was possible. In this adverse scenario, Gershman et. Al.\[[1]\]  proposed Non-parametric VI (NPVI), an approach for flexible inference on non-conjugate models using mixtures of diagonal Gaussians with identical component weights as variational distributions and using a block optimization scheme to make inference possible.
 
@@ -8,5 +8,9 @@ With these tools, we could do the same with much more ease simply using the repa
 Here, you can find a modern implementation of NPVI using PyTorch.
 
 As an illutration, I've implemented it for inference on a non-conjugate hierarchical logistic regression model.
+
+
+I am using the SUSY classification dataset. Please [download](https://archive.ics.uci.edu/ml/machine-learning-databases/00279/) the gz file and unpack the csv in the 'data' folder.
+
 
 [1]: http://gershmanlab.webfactional.com/pubs/GershmanHoffmanBlei12.pdf
